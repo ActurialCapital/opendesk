@@ -1,6 +1,7 @@
 ---
 icon: fontawesome/solid/bolt-lightning
 ---
+
 # Backtesting
 
 Backtesting is a complex process that requires a deep understanding of investment concepts and programming. It involves testing a trading strategy using historical data to simulate transactions and evaluate the strategy's performance. 
