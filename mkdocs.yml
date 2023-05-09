@@ -1,0 +1,218 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+site_name: ActurialCapital
+
+# Configuration
+theme:
+  favicon: assets/images/lightning.png
+  # logo: assets/images/128.png
+  icon:
+    repo: fontawesome/brands/git-alt 
+    logo: fontawesome/solid/unlock-keyhole
+  name: material
+  language: en    
+  palette:
+  - media: '(prefers-color-scheme: light)'
+    scheme: classic
+    # primary: black
+    accent: deep purple
+    toggle:
+      icon: material/brightness-7 
+      name: Switch to light mode
+  - media: '(prefers-color-scheme: dark)'
+    scheme: slate
+    primary: black
+    toggle:
+      icon: material/brightness-4
+      name: Switch to dark mode
+  font:
+    text: Roboto
+    code: Roboto Mono  
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    # - navigation.sections
+    - navigation.expand
+    # - navigation.prune
+    - navigation.indexes
+    - toc.follow
+    # - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
+    # - announce.dismiss
+    - content.code.annotate 
+    - navigation.path
+    - content.tooltips
+  
+    
+# Repository
+copyright: Copyright &copy; 2015 - 2023 ActurialCapital
+repo_url: https://github.com/ActurialCapital/
+repo_name: acturialcapital
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/acturialcapital
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/j-mr      
+  version:
+    provider: mike
+  analytics:
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/heart
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/heart-broken
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+  
+extra_css:
+  - assets/css/extra.css
+  - assets/css/termynal.css
+  - assets/css/custom.css
+  
+plugins:
+  - glightbox
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+  - search:
+      separator: '[\s\-\.]' 
+      prebuild_index: true
+  - autorefs
+  - tags
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+      python:
+        options:
+          show_source: false
+          show_csource_code: false
+  - typeset
+  - meta
+
+markdown_extensions:
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      # toc_depth: 4
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.critic
+  
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/shortcuts.js
+  - assets/js/termynal.js
+  - assets/js/termynal.min.js
+  - assets/js/custom.js
+  
+# use_directory_urls: true
+
+
+  
+nav:
+  - Getting Started:
+    - getting_started/index.md
+    - getting_started/main_concepts.md
+    - getting_started/create_blocks.md
+    - getting_started/optimize_blocks.md
+    - getting_started/backtest_blocks.md
+    - getting_started/installation.md
+  - Documentation:
+    - documentation/index.md
+    - Strategy:
+      - documentation/api/strategy/index.md
+      - documentation/api/strategy/exposures.md
+      - Porfolio:
+        - documentation/api/strategy/portfolio_construction/index.md
+        - documentation/api/strategy/portfolio_construction/discrete_allocation.md
+        - documentation/api/strategy/portfolio_construction/optimization.md
+      - documentation/api/strategy/backtest.md
+    - Signals:
+        - documentation/api/signals/index.md
+    - Workflow:
+      - documentation/workflow/index.md
+    - Contributing:
+      - documentation/contributing/index.md   
+  - Blocks:
+      - blocks/en/index.md
+      - blocks/en/arbitrage_et_publication_academique.md
+      - blocks/en/backtesting.md
+      - blocks/en/building_blocks.md
+      - blocks/en/clustering.md
+      - blocks/en/cost_of_capital.md
+      - blocks/en/cycles_de_marche.md
+      # - blocks/en/regime_switching.md
+      - blocks/en/dynamic_time_warping.md
+      - blocks/en/esg.md
+      - blocks/en/nowcasting.md
+      - blocks/en/optimization_de_portefeuille.md
+      - blocks/en/volatilite_cible.md
+      - blocks/en/network_graph.md
+      - blocks/en/short_interests.md
+  - Contacts: 
+    - contacts/index.md
+  - Terms: 
+    - terms/index.md
+    - terms/license.md
