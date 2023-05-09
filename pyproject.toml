@@ -13,6 +13,7 @@ mkdocs-autorefs = "^0.4.1"
 mkdocs-git-revision-date-localized-plugin = "^1.1.0"
 mkdocs-material = "^9.0.5"
 jieba = "^0.42.1"
+pngquant = "^1.0.7"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
