@@ -4,7 +4,7 @@ This website is dedicated to providing documentation for a Python package that u
 
 The building blocks approach provides a comprehensive yet flexible means of financial strategy development and data analysis, making it an essential tool for professionals in the finance industry, whether experienced or novice.
 
-## Contents
+***
 
 <div class="result" markdown>
 
@@ -21,3 +21,5 @@ The building blocks approach provides a comprehensive yet flexible means of fina
 
 [Signals](./signals/index.md) constructs transfomed dataset, which are used to build strategies. Examples including High Frequency Indicators, Nowcasts/Forecasts or Alpha Signals.
 </div>
+
+***

@@ -38,9 +38,6 @@ This Get Started guide explains how `opendesk` works, how to install `opendesk` 
 ![Backtest Blocks](../assets/images/flaticon_5.png){ align=left width=80 }
 
 [Backtest Blocks](./backtest_blocks.md) through the `opendesk` API. It enables the systematic evaluation of one or multiple strategies simultaneously. It provides access to a comprehensive range of features, thereby affording users the ability to leverage its full functionality and holds significant potential for success within the financial markets.
-
-
-
 </div>
 
 ***
@@ -52,3 +49,5 @@ This Get Started guide explains how `opendesk` works, how to install `opendesk` 
 [Installation](./installation.md) helps you set up your virtual environment and walks you through installing `opendesk` on Windows, macOS, and Linux. Regardless of which package management tool and OS you're using, we recommend running the commands on this page in a virtual environment.
 
 </div>
+
+***
