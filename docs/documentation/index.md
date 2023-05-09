@@ -8,7 +8,7 @@ The building blocks approach provides a comprehensive yet flexible means of fina
 
 <div class="result" markdown>
 
-![Strategy](../../assets/images/flaticon_6.png){ align=left width=80 }
+![Strategy](../assets/images/flaticon_6.png){ align=left width=80 }
 
 [Strategy](./strategy/index.md) is the main implementation of the library for portfolio construction, which initializes the execution of the sequence of blocks and allows to compute tilts/exposures, create and backtest target portfolios.
 </div>
@@ -17,7 +17,7 @@ The building blocks approach provides a comprehensive yet flexible means of fina
 
 <div class="result" markdown>
 
-![Signals](../../assets/images/flaticon_7.png){ align=left width=80 }
+![Signals](../assets/images/flaticon_7.png){ align=left width=80 }
 
 [Signals](./signals/index.md) constructs transfomed dataset, which are used to build strategies. Examples including High Frequency Indicators, Nowcasts/Forecasts or Alpha Signals.
 </div>
