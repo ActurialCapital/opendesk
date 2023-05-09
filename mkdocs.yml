@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 
-site_name: ActurialCapital
+site_name: ActurialCapital - Opendesk
 
 # Configuration
 theme:
@@ -8,7 +8,7 @@ theme:
   # logo: assets/images/128.png
   icon:
     repo: fontawesome/brands/git-alt 
-    logo: fontawesome/solid/unlock-keyhole
+    logo: fontawesome/solid/cube
   name: material
   language: en    
   palette:
