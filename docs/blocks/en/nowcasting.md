@@ -87,4 +87,4 @@ Each nowcasting model has its own set of strengths and weaknesses:
 * MIDAS models have the advantage of being able to use high-frequency data to produce more accurate forecasts. However, their complexity can make them more challenging to use.
 * SVAR models are often used for their ability to model complex causal relationships between economic variables. But, their use of structural shocks can make their forecasts more sensitive to changes in initial assumptions.
 
-We have developed several econometric methods that aim to produce quasi-real-time estimates of economic indicators. We believe that multiple methods are necessary to meet the constraints of each client, obtain a more comprehensive picture of the current and future economic situation, and to reduce model risk.
+We have developed several econometric methods that aim to produce quasi-real-time estimates of economic indicators. We believe that multiple methods are necessary to meet constraints of each phase of the cycle, obtain a more comprehensive picture of the current and future economic situation, and to reduce model risk.
