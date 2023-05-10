@@ -179,6 +179,8 @@ extra_javascript:
 
   
 nav:
+  - Home:
+    - index.md
   - Getting Started:
     - getting_started/index.md
     - getting_started/main_concepts.md
