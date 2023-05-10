@@ -4,7 +4,7 @@ icon: fontawesome/solid/chart-gantt
 
 # Discrete Allocation
 
-The `portfolio()` calls the [`PortfolioConstruction`](../../portfolio/index.md) class, which includes the implementation of the `discrete_allocation()` built-in public methods for discrete allocation procedures, which allows multiple pre-determined rule-based allocation strategies
+The `portfolio()` calls the `PortfolioConstruction` class, which includes the implementation of the `discrete_allocation()` built-in public methods for discrete allocation procedures, which allows multiple pre-determined rule-based allocation strategies
 
 ## discrete_allocation
 

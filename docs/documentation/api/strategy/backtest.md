@@ -192,7 +192,7 @@ backtest.config.BacktestConfig(
 List[Tuple[str, Type, Dict, Dict]]
 ```
 <div class="result" markdown>
-Alpha blocks in order of execution. More information, please visit [the Model Glossary](../../model_glossary/index.md).
+Alpha blocks in order of execution. More information, please visit the [Blocks](../../../blocks/en/index.md).
 The parameter `steps` is required to enable the smooth integration of the strategy into the module with minimal disruption. It is a list of tuples containing:
 
 * Custom name of the selected block (e.i. `myblock`)

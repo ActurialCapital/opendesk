@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 
-site_name: ActurialCapital - Opendesk
+site_name: opendesk
 
 # Configuration
 theme:
@@ -8,25 +8,30 @@ theme:
   # logo: assets/images/128.png
   icon:
     repo: fontawesome/brands/git-alt 
-    logo: fontawesome/solid/cube
+    # logo: fontawesome/solid/cube
+    logo: material/cube-outline
+    # logo: fontawesome/solid/bolt-lightning
+
+  # logo: assets/images/lightning.png
   name: material
+  # custom_dir: overrides
   language: en    
   palette:
-  - media: '(prefers-color-scheme: light)'
-    scheme: classic
-    # primary: black
-    accent: deep purple
-    toggle:
-      icon: material/brightness-7 
-      name: Switch to light mode
+  # - media: '(prefers-color-scheme: light)'
+  #   scheme: classic
+  #   # primary: black
+  #   accent: deep purple
+  #   toggle:
+  #     icon: material/weather-night
+  #     name: Switch to light mode
   - media: '(prefers-color-scheme: dark)'
     scheme: slate
-    primary: black
-    toggle:
-      icon: material/brightness-4
-      name: Switch to dark mode
+    # primary: black
+    # toggle:
+    #   icon: material/weather-sunny
+    #   name: Switch to dark mode
   font:
-    text: Roboto
+    text: Arial
     code: Roboto Mono  
   features:
     - navigation.instant
@@ -46,8 +51,10 @@ theme:
     - header.autohide
     # - announce.dismiss
     - content.code.annotate 
+    - content.tabs.link
     - navigation.path
     - content.tooltips
+
   
     
 # Repository
@@ -211,7 +218,7 @@ nav:
       - blocks/en/volatilite_cible.md
       - blocks/en/network_graph.md
       - blocks/en/short_interests.md
-  - Contacts: 
+  - Contact: 
     - contacts/index.md
   - Terms: 
     - terms/index.md

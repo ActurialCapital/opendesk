@@ -8,8 +8,8 @@ Before you get started, you're going to need a few things:
 * [Python 3.10](https://www.python.org/downloads/)
 * [PIP](https://pip.pypa.io/en/stable/installation/)
 * Install C++:
-  * **MacOS**: You need to [install XCode Command Line Tools](https://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/). They are required to compile some of Opendesk's Python dependencies during installation.
-  * **Windows**: For Windows users, [download Visual Studio](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16), with [additional instructions](https://docs.google.com/presentation/d/0B4GsMXCRaSSIOWpYQkstajlYZ0tPVkNQSElmTWh1dXFaYkJr/edit?usp=sharing&ouid=117107708911390632479&resourcekey=0-HEezB2NFstz1GjKDkroJSQ&rtpof=true&sd=true).
+    * **MacOS**: You need to [install XCode Command Line Tools](https://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/). They are required to compile some of Opendesk's Python dependencies during installation.
+    * **Windows**: For Windows users, [download Visual Studio](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16), with [additional instructions](https://docs.google.com/presentation/d/0B4GsMXCRaSSIOWpYQkstajlYZ0tPVkNQSElmTWh1dXFaYkJr/edit?usp=sharing&ouid=117107708911390632479&resourcekey=0-HEezB2NFstz1GjKDkroJSQ&rtpof=true&sd=true).
 
 !!! question "Python"
     Opendesk is built on Python. Other dependencies, such as C++, are employed to improve the speed at which the program runs.

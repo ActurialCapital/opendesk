@@ -1,8 +1,10 @@
-# ActurialCapital - Opendesk
+# opendesk
 
 ## Getting Started
 
 This Get Started guide explains how `opendesk` works, how to install `opendesk` on your preferred operating system, and how to create your first `opendesk` strategy! 
+
+[Getting Started](./getting_started/index.md){ .md-button .md-button--primary }
 
 ***
 
@@ -10,7 +12,7 @@ This Get Started guide explains how `opendesk` works, how to install `opendesk` 
 
 ![Main concepts](./assets/images/flaticon_2.png){ align=left width=80 }
 
-[Main concepts](../getting_started/main_concepts.md) introduces you to `opendesk`'s base model and development flow. You'll learn what makes `opendesk` the most powerful way to build systematic strategies, including the ability to customize existing setup. 
+[Main concepts](./getting_started/main_concepts.md) introduces you to `opendesk`'s base model and development flow. You'll learn what makes `opendesk` the most powerful way to build systematic strategies, including the ability to customize existing setup. 
 
 </div>
 
@@ -59,6 +61,8 @@ This Get Started guide explains how `opendesk` works, how to install `opendesk` 
 This website is dedicated to providing documentation for a Python package that utilizes the "blocks" method for implementing financial strategies. This approach involves the sequential application of rule-based modular strategies that can be easily modified and added or removed from the sequence as needed. The method's effectiveness lies in its ability to generate a score for each block, enabling efficient testing and optimization, as well as facilitating research and machine learning integration. Furthermore, the method allows for the combination of various sources of alpha in a risk-efficient manner. 
 
 The building blocks approach provides a comprehensive yet flexible means of financial strategy development and data analysis, making it an essential tool for professionals in the finance industry, whether experienced or novice.
+
+[Documentation](./documentation/index.md){ .md-button .md-button--primary }
 
 ***
 
