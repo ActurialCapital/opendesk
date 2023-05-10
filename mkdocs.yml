@@ -8,11 +8,7 @@ theme:
   # logo: assets/images/128.png
   icon:
     repo: fontawesome/brands/git-alt 
-    # logo: fontawesome/solid/cube
     logo: material/cube-outline
-    # logo: fontawesome/solid/bolt-lightning
-
-  # logo: assets/images/lightning.png
   name: material
   # custom_dir: overrides
   language: en    
@@ -26,7 +22,7 @@ theme:
   #     name: Switch to light mode
   - media: '(prefers-color-scheme: dark)'
     scheme: slate
-    primary: custom
+    # primary: black
     # toggle:
     #   icon: material/weather-sunny
     #   name: Switch to dark mode
@@ -49,7 +45,7 @@ theme:
     - search.highlight
     - search.share
     - header.autohide
-    # - announce.dismiss
+    - announce.dismiss
     - content.code.annotate 
     - content.tabs.link
     - navigation.path
@@ -107,8 +103,8 @@ plugins:
       type: date
   - search:
       separator: '[\s\-\.]' 
-      prebuild_index: true
-  - autorefs
+      # prebuild_index: true
+  # - autorefs
   - tags
   - mkdocstrings:
       default_handler: python
