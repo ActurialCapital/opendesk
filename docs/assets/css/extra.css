@@ -1,9 +1,9 @@
 
-.md-header {
+[data-md-header] {
   background-color: #2d333b;
 }
 
-.md-button--primary {
+[data-md-button--primary] {
   background-color: #2d333b;
   border-color: var(--md-typeset-a-color);
   color: #fff;
