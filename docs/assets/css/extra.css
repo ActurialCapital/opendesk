@@ -1,13 +1,14 @@
 
-[data-md-header] {
+[data-md-color-primary=black] .md-header {
   background-color: #2d333b;
 }
 
-[data-md-button--primary] {
+[data-md-color-primary=black] .md-button--primary {
   background-color: #2d333b;
-  border-color: var(--md-typeset-a-color);
+  border-color: #2d333b;
   color: #fff;
 }
+
 
 /* // Slate theme, i.e. dark mode  */
 [data-md-color-scheme="slate"] { 
