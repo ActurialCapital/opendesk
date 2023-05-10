@@ -1,3 +1,7 @@
+---
+icon: fontawesome/solid/chart-area
+---
+
 # Optimize Blocks
 
 Portfolio optimization is the process of selecting the optimal mix of assets in a portfolio in order to maximize returns while minimizing risk. One method of portfolio optimization involves the use of alpha scores. By selecting assets with high alpha scores, an investor can potentially achieve higher probability of positive returns while taking on the same level of risk. The optimal portfolio is typically determined through the use of statistical analysis and optimization techniques, such as mean-variance or Black-Litterman optimization.

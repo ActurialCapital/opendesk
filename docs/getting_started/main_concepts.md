@@ -1,3 +1,7 @@
+---
+icon: fontawesome/solid/map-pin
+---
+
 # Main Concepts
 
 Using `opendesk` is easy. First, come up with an idea and make sure it can be organized in a clear and concise way. Then, build one or more "blocks" that bring this idea to life, following `opendesk` [Development Guidelines](../documentation/contributing/index.md). Finally, create a portfolio and test it out through backtesting to see how it performs.

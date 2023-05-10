@@ -1,3 +1,7 @@
+---
+icon: fontawesome/solid/cubes
+---
+
 # Create Blocks
 
 Blocks are classes, which follow `opendesk` [Development Guidelines](../documentation/contributing/index.md), to ensure consistency and ease of use. Blocks must follow the "PRS" schema, which is "Processing" data, "Ranking" results, "Scoring" output. All classes must have the below three functions:

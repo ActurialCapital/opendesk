@@ -10,7 +10,7 @@ theme:
     repo: fontawesome/brands/git-alt 
     logo: material/cube-outline
   name: material
-  # custom_dir: overrides
+  custom_dir: overrides
   language: en    
   palette:
   # - media: '(prefers-color-scheme: light)'
@@ -203,7 +203,6 @@ nav:
   - Blocks:
       - blocks/en/index.md
       - blocks/en/arbitrage_et_publication_academique.md
-      - blocks/en/backtesting.md
       - blocks/en/building_blocks.md
       - blocks/en/clustering.md
       - blocks/en/cost_of_capital.md
