@@ -24,9 +24,9 @@ theme:
   #   toggle:
   #     icon: material/weather-night
   #     name: Switch to light mode
-  - media: '(prefers-color-scheme: dark)'
+  - media: '(prefers-color-scheme: #2d333b)'
     scheme: slate
-    primary: '#2d333b'
+    # primary: '#2d333b'
     # toggle:
     #   icon: material/weather-sunny
     #   name: Switch to dark mode
