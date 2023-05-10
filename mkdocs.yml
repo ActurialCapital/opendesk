@@ -26,7 +26,7 @@ theme:
   #     name: Switch to light mode
   - media: '(prefers-color-scheme: dark)'
     scheme: slate
-    primary: black
+    primary: '#2d333b'
     # toggle:
     #   icon: material/weather-sunny
     #   name: Switch to dark mode
