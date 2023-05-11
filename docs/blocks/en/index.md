@@ -15,15 +15,6 @@
 
 <div class="result" markdown>
 
-![Backtesting](../../assets/images/block_1.png){ align=left width=80 }
-
-[Backtesting](./backtesting.md) is a complex process that requires a deep understanding of investment concepts and programming. It involves testing a trading strategy using historical data to simulate transactions and evaluate the strategy's performance. 
-</div>
-
-***
-
-<div class="result" markdown>
-
 ![Building Blocks](../../assets/images/block_2.png){ align=left width=80 }
 
 [Building Blocks](./building_blocks.md) - The annualized long-term return of stock markets can be decomposed into three fundamental elements:
@@ -97,15 +88,6 @@
 ![Nowcasting](../../assets/images/block_9.png){ align=left width=80 }
 
 [Nowcasting](./nowcasting.md) utilizes statistical techniques to provide early and short-term predictions for key quarterly indicators such as GDP growth, CPI, and OECD leading indicators.
-</div>
-
-***
-
-<div class="result" markdown>
-
-![Portfolio Optimization](../../assets/images/block_10.png){ align=left width=80 }
-
-[Portfolio Optimization](./optimization_de_portefeuille.md) is a method that allows investors to select assets to include in their portfolio in order to maximize their return while minimizing their risk.
 </div>
 
 ***

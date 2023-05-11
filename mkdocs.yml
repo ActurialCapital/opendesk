@@ -27,7 +27,7 @@ theme:
     #   icon: material/weather-sunny
     #   name: Switch to dark mode
   font:
-    text: Arial
+    text: Roboto
     code: Roboto Mono  
   features:
     - navigation.instant
@@ -38,9 +38,10 @@ theme:
     - navigation.expand
     # - navigation.prune
     - navigation.indexes
+    - navigation.top
+    - navigation.path
     - toc.follow
     # - toc.integrate
-    - navigation.top
     - search.suggest
     - search.highlight
     - search.share
@@ -48,7 +49,6 @@ theme:
     - announce.dismiss
     - content.code.annotate 
     - content.tabs.link
-    - navigation.path
     - content.tooltips
 
   
@@ -106,13 +106,13 @@ plugins:
       # prebuild_index: true
   # - autorefs
   - tags
-  - mkdocstrings:
-      default_handler: python
-      handlers:
-      python:
-        options:
-          show_source: false
-          show_csource_code: false
+  # - mkdocstrings:
+  #     default_handler: python
+  #     handlers:
+  #     python:
+  #       options:
+  #         show_source: false
+  #         show_csource_code: false
   - typeset
   - meta
 
@@ -162,10 +162,10 @@ markdown_extensions:
   - pymdownx.critic
   
 extra_javascript:
-  - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  - javascripts/shortcuts.js
+  # - javascripts/mathjax.js
+  # - https://polyfill.io/v3/polyfill.min.js?features=es6
+  # - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  # - javascripts/shortcuts.js
   - assets/js/termynal.js
   - assets/js/termynal.min.js
   - assets/js/custom.js
@@ -211,7 +211,6 @@ nav:
       - blocks/en/dynamic_time_warping.md
       - blocks/en/esg.md
       - blocks/en/nowcasting.md
-      - blocks/en/optimization_de_portefeuille.md
       - blocks/en/volatilite_cible.md
       - blocks/en/network_graph.md
       - blocks/en/short_interests.md
