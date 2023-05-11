@@ -216,7 +216,7 @@ nav:
       - blocks/en/volatilite_cible.md
       - blocks/en/network_graph.md
       - blocks/en/short_interests.md
-
+      - blocks/en/llms.md
       - blocks/en/factor_investing.md
       - blocks/en/volatility_neutral_arbitrage.md
       - blocks/en/applied_symbolic_regression.md
