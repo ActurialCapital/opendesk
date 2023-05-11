@@ -43,7 +43,7 @@ After scaling volatility, the momentum filter is employed to further reduce expo
 
 [^1]: Harvey, C. R., Hoyle, J. B., Korgaonkar, S., Rattray, S., Sargaison, M., & Van Hemert, O. (2019). The impact of volatility targeting. Journal of Portfolio Management, 45(6), 71-88.
 
-## To Be Continued
+## ...To Be Continued
 
 Should you be interested in our approach and latest research on quantitative analysis, please feel free to contact us to obtain more detailed information about the PRO version of the package via **LinkedIn**.
 

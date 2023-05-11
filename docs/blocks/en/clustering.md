@@ -115,7 +115,7 @@ Optimizing a portfolio requires integrating the clustering method with risk pari
 
 Nonetheless, clustering is not always an effective means of portfolio optimization, as it may not improve portfolio performance or the Sharpe ratio in all circumstances. In some instances, clustering may even lead to a greater weighting of underperforming assets. Rather than identifying outperforming assets, clustering should be used to manage risk effectively. It is a useful technique for determining the number of similar assets/strategies in the portfolio and for diversifying them efficiently. However, clustering algorithms should be used in conjunction with a return predictor, such as momentum, to select suitable assets for the portfolio (Roncalli, 2013).
 
-## To Be Continued
+## ...To Be Continued
 
 Should you be interested in our approach and latest research on quantitative analysis, please feel free to contact us to obtain more detailed information about the PRO version of the package via **LinkedIn**.
 

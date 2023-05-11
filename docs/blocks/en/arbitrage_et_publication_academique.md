@@ -52,7 +52,7 @@ Another approach is to rotate possible arbitrages for a given asset class (Asnes
 
 Finally, it is important to note that investors must adapt research ideas to their own investment context, taking into account their risk tolerance, investment universe, and portfolio composition (Ang et al., 2010). Investors can also combine research ideas with other strategies to reduce the concentration of a single strategy (Asness et al., 2013).
 
-## To Be Continued
+## ...To Be Continued
 
 Should you be interested in our approach and latest research on quantitative analysis, please feel free to contact us to obtain more detailed information about the PRO version of the package via **LinkedIn**.
 

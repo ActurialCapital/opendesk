@@ -41,7 +41,7 @@ Several algorithms have therefore been proposed to find reasonably good partitio
 * Agglomerative algorithms merge similar nodes/communities recursively
 * Optimization methods are based on the maximisation of an objective function
 
-## To Be Continued
+## ...To Be Continued
 
 Should you be interested in our approach and latest research on quantitative analysis, please feel free to contact us to obtain more detailed information about the PRO version of the package via **LinkedIn**.
 
