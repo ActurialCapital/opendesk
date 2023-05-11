@@ -15,7 +15,7 @@ There are several advanced techniques for portfolio optimization that take into 
 
 * **Markowitz portfolio optimization**: This approach, proposed by Harry Markowitz in 1952, uses the efficient frontier theory to determine the optimal portfolio that offers the best expected return for a given level of risk.
 * **Conditional variance portfolio optimization**: This approach allows for changes in volatility and correlation between assets over time to adjust the portfolio accordingly.
-* Multi-objective optimization**: This approach considers multiple objectives, such as return, risk, and liquidity, and finds a compromise between these objectives to obtain an optimal portfolio that meets multiple criteria.
+* **Multi-objective optimization**: This approach considers multiple objectives, such as return, risk, and liquidity, and finds a compromise between these objectives to obtain an optimal portfolio that meets multiple criteria.
 * **Robust optimization**: This approach aims to find an optimal portfolio that is resistant to disturbances and uncertainties by considering different possible scenarios.
 * **AI-based portfolio optimization**: This approach uses machine learning algorithms to analyze historical financial market data and predict future trends, in order to construct an optimal portfolio that maximizes return while minimizing risk.
   
