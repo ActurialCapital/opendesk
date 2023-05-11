@@ -40,6 +40,8 @@ theme:
     - navigation.indexes
     - navigation.top
     - navigation.path
+    - navigation.footer
+
     - toc.follow
     # - toc.integrate
     - search.suggest
