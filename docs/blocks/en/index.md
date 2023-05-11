@@ -51,17 +51,18 @@
 [Market Cycle](./cycles_de_marche.md) - Our objective is to determine and characterize different stages of market activity. Gaining insight into the analysis of market cycles, both within a given dataset and beyond, may assist in formulating optimal investment strategies.
 </div>
 
-<!-- ***
+***
 
 <div class="result" markdown>
 
 ![Regime Switching](../../assets/images/block_6.png){ align=left width=80 }
 
-[Regime Switching](./regime_switching.md) and phase identification can be accomplished by using either subjective knowledge and experience or a data-driven approach:
+[Regime Switching](./regime_switching.md) and phase identification can be accomplished by using either a subjective knowledge or a data-driven approach:
 
 1. One method is to classify market regimes based on observable features such as volatility levels, shifts in monetary policy, and changes in investor sentiment
 2. In contrast, a data-driven approach involves utilizing historical data to identify market regimes automatically, ie the [unsupervised learning page](https://www.ibm.com/topics/unsupervised-learning)
-</div> -->
+
+</div>
 
 ***
 

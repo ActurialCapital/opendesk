@@ -4,6 +4,8 @@ icon: fontawesome/solid/battery-full
 
 # Clustering
 
+## Definition
+
 Clustering methods are becoming increasingly common in portfolio management, aiming to address the inefficiencies of sectoral clustering analysis (particularly GICS). This study focuses on the most popular clustering methods, such as Partitioning Around Medoids (PAM), Hierarchical Clustering, and Gaussian Mixture Model, and provides examples of their use in portfolio management. We have developed modeling techniques based on graph theory and community detection to enhance the clustering analysis.
 
 ## Clustering Techniques

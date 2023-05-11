@@ -17,12 +17,12 @@ Phase identification enables investors to more accurately assess economic regime
 
 Maximising returns means applying the below dynamic investment approach associated with a cycle:
 
-* Contrarian: When the rate of change is null (peak/trough)
-  * Long risky assets as they fall
-  * Short risky assets as they rise
-* Trend-following otherwise (momentum - crowded investment styles)
-  * Long risky assets as they rise
-  * Short risky assets as they fall
+* **Contrarian**: When the rate of change is null (peak/trough)
+    * Long risky assets as they fall
+    * Short risky assets as they rise
+* **Trend-following** otherwise (momentum - crowded investment styles)
+    * Long risky assets as they rise
+    * Short risky assets as they fall
 
 Understanding the balance between the size of the two groups is essential for market behaviour:
 

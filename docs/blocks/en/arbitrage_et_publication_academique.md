@@ -3,6 +3,8 @@ icon: fontawesome/solid/car-battery
 ---
 # Arbitrage and Publications
 
+## Definition
+
 The objective of this research is to analyze the post-publication performance of investment strategies, focusing on the extent to which market anomalies can be exploited and whether profits decline once it gains widespread attention. Additionally, we explore the possibility of synchronization between different investment strategies.
 
 In economics and finance, the analysis of market anomalies aims to identify profitable trading strategies based on market inefficiencies. However, the exploitation of these anomalies is confined by arbitrage limits, which originate from the risks and expenses associated with carrying out these trades. Our investigation delves into the concept of arbitrage limits as they relate to market anomalies and the impact of human psychology. These are frequently discussed matters of interest.

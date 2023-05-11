@@ -164,10 +164,9 @@ markdown_extensions:
   - pymdownx.critic
   
 extra_javascript:
-  # - javascripts/mathjax.js
-  # - https://polyfill.io/v3/polyfill.min.js?features=es6
-  # - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  # - javascripts/shortcuts.js
+  - assets/js/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - assets/js/termynal.js
   - assets/js/termynal.min.js
   - assets/js/custom.js
@@ -209,7 +208,7 @@ nav:
       - blocks/en/clustering.md
       - blocks/en/cost_of_capital.md
       - blocks/en/cycles_de_marche.md
-      # - blocks/en/regime_switching.md
+      - blocks/en/regime_switching.md
       - blocks/en/dynamic_time_warping.md
       - blocks/en/esg.md
       - blocks/en/nowcasting.md

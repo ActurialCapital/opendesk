@@ -4,6 +4,8 @@ icon: fontawesome/solid/chart-line
 
 # Dynamic Time Warping
 
+## Definition
+
 Dynamic Time Warping (DTW) is a technique used in time series analysis to measure the similarity between two time series that may have differences in speed or frequency. In portfolio management, DTW can be used to compare the performance of a momentum strategy with that of a benchmark index or another portfolio.
 
 ## Momentum Strategy

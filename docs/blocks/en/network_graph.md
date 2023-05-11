@@ -16,9 +16,13 @@ Risk is not uniformly spread across financial markets and this fact can be explo
 
 As widely accepted since Markowitz seminal work, an efficient diversification should aim to select stocks as anti-correlated as possible and remaining consistently anti-correlated over time. Identifying, from the study of historical behavior prior to the investment, baskets of stocks with a good likelihood to remain well-diversified over the future investment period is very challenging. Indeed, the structure of correlations between stocks is evolving over time and changes markedly during crises. For this reason the Markowitz approach is normally applied to a selection of stocks identified by using different criteria including the industrial sector and other macro- or micro-economic considerations. In this way, a relatively small set of stocks (typically 10 to 50) is individuated and on such 'basket' the Markowitz optimal portfolio is determined.
 
-Invest in Peripheral stocks? We hypothesise that investments in stocks that occupy peripheral, poorly connected regions in financial filtered networks are most successful in diversifying portfolios
+### Invest in Peripheral stocks? 
 
-Neutralize to correlation cluster? An industry classification is based on a similarity criterion: stocks' membership in "groups" or "clusters" such as sectors, industries, sub-industries, etc. - the nomenclature varies from one industry classification scheme to another. Commonly used industry classifications such as GICS, BICS, ICB, NAICS, SIC, etc., are based on fundamental/economic data (such as companies' products and services and more generally their revenue sources, suppliers, competitors, partners, etc.). Such industry classifications are essentially independent of the pricing data and, if well-built, tend to be rather stable out-of-sample as companies seldom jump industries. 
+We hypothesise that investments in stocks that occupy peripheral, poorly connected regions in financial filtered networks are most successful in diversifying portfolios.
+
+### Neutralize to correlation cluster? 
+
+An industry classification is based on a similarity criterion: stocks' membership in "groups" or "clusters" such as sectors, industries, sub-industries, etc. - the nomenclature varies from one industry classification scheme to another. Commonly used industry classifications such as GICS, BICS, ICB, NAICS, SIC, etc., are based on fundamental/economic data (such as companies' products and services and more generally their revenue sources, suppliers, competitors, partners, etc.). Such industry classifications are essentially independent of the pricing data and, if well-built, tend to be rather stable out-of-sample as companies seldom jump industries. 
 
 ## Fast Unfolding of Communities in Large Networks
 

@@ -4,6 +4,8 @@ icon: fontawesome/solid/clone
 
 # Cost of Capital
 
+## Definition
+
 !!! info
     The cost of capital introduces the concept of risk and return, according to which riskier investments should have a higher expected return than safer investments. In this regard, expected returns can be written as $r_n = k_d + k_e$, where $k_d$ is the cost of debt, or the risk-free rate (the nominal return on bonds), and $k_e$ is the cost of equity, or Equity Risk Premium (ERP), an additional return for the risk of holding stocks.
 
