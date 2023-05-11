@@ -118,3 +118,16 @@
 </div>
 
 ***
+
+<div class="result" markdown>
+
+![Pro](../../assets/images/padlock.png){ align=left width=80 }
+
+[opendesk PRO](./short_interests.md) Should you be interested in our approach and latest research on quantitative analysis, please feel free to contact us to obtain more detailed information about the PRO version of the package via **LinkedIn**.
+
+[LinkedIn](https://www.linkedin.com/in/j-mr/ ){ .md-button .md-button--primary target="_blank" }
+
+</div>
+
+***
+

@@ -11,7 +11,7 @@ Building **blocks** is a methodology which involves a sequential application of 
 ## Features
 
 - [x]  **Portfolio strategy first**: `opendesk` focuses on portfolio strategy development
-- [x]  **Fast**: `opendesk` system has been designed to achieve superior performance in the development, implementation, and evaluation of strategies, built with [NumPy](https://numpy.org/) and [Pandas](https://pandas.pydata.org/) and [Polars](https://www.pola.rs/)
+- [x]  **Fast**: `opendesk` system has been designed to achieve superior performance in the development, implementation, and evaluation of strategies, built with [NumPy](https://numpy.org/), [Pandas](https://pandas.pydata.org/) and [Polars](https://www.pola.rs/)
 - [x]  **Fast to code**: Created through fluent interface, which is an API design style that allows method calls to be chained together in a single statement. This make `opendesk`'s code more readable and concise, as it eliminates the need to create intermediate variables to store the results of temporary method calls
 - [x]  **Intuitive**: Develop a plan, organize your ideas, conduct research, implement strategies based on the findings, and test various parameters to determine their impact in a single session
 - [x]  **Easy**: `opendesk` user interface has been optimized for simplicity and ease of use, reducing the need for extensive training or consultation of documentation
