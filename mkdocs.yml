@@ -214,6 +214,34 @@ nav:
       - blocks/en/volatilite_cible.md
       - blocks/en/network_graph.md
       - blocks/en/short_interests.md
+
+      - blocks/en/factor_investing.md
+      - blocks/en/volatility_neutral_arbitrage.md
+      - blocks/en/applied_symbolic_regression.md
+      - blocks/en/trend_following_vs_mean_reversion.md
+      - blocks/en/extreme_value_theories.md
+      - blocks/en/polymodels.md
+      - blocks/en/cds_based_models.md
+      - blocks/en/vector_auto_regression_and_impulse_response_models.md
+      - blocks/en/dynamic_porfolio_rebalancing.md
+      - blocks/en/option_factor_momentum.md
+      - blocks/en/wavelet_transform_pairs_trading.md
+      - blocks/en/timing_factor_zoo.md
+      - blocks/en/tail_risk_strategies.md
+      - blocks/en/forecasting_with_deep_learning.md
+      - blocks/en/forecasting_with_recurrent_neural_networks.md
+      - blocks/en/forecasting_with_convolutional_neural_networks.md
+      - blocks/en/forecasting_with_long_short_term_memory.md
+      - blocks/en/forecasting_with_generative_adversarial_networks.md
+      - blocks/en/deep_learning_and_macro_finance_models.md
+      - blocks/en/option_based_volatility_timing.md
+      - blocks/en/excess_inflation_and_asset_class_returns.md
+      - blocks/en/vix_yield_curve_cycle.md
+      - blocks/en/state_space_models_and_the_kalman_filter.md
+      - blocks/en/asset_class_correlations.md
+      - blocks/en/valuation_spread_methods.md
+
+
   - Contact: 
     - contacts/index.md
   - Terms: 

@@ -1,7 +1,7 @@
 ---
 icon: fontawesome/solid/car-battery
 ---
-# Arbitrage and Academic Publications
+# Arbitrage and Publications
 
 The objective of this research is to analyze the post-publication performance of investment strategies, focusing on the extent to which market anomalies can be exploited and whether profits decline once it gains widespread attention. Additionally, we explore the possibility of synchronization between different investment strategies.
 

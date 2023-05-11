@@ -62,6 +62,7 @@ Since multiple PyPortfolioOpt functions can require the same argument that has t
 Optimizing a long/short portfolio to minimise total variance:
 
 === "pypfopt"
+
     ```python
     S = CovarianceShrinkage(data.get("Close")).ledoit_wolf()
     ef = EfficientFrontier(None, S, weight_bounds=(-1, 1))
@@ -70,8 +71,8 @@ Optimizing a long/short portfolio to minimise total variance:
 
     ```
 
-    ```
 === "opendesk"
+
     ```python
     strategy.portfolio(data.get("Close")).optimize(  
         expected_returns=None,
@@ -83,6 +84,7 @@ Optimizing a long/short portfolio to minimise total variance:
 Optimizing a portfolio to maximise the Sharpe ratio, subject to sector constraints. In opendesk, while the sector constraints is also an option, we can set the `alpha_block_constraints` to True, which constraints the portfolio depending on pre-modeled alpha blocks exposures:
 
 === "pypfopt"
+
     ```python
     from pypfopt.expected_returns import capm_return
 
@@ -96,6 +98,7 @@ Optimizing a portfolio to maximise the Sharpe ratio, subject to sector constrain
     ```
 
 === "opendesk"
+
     ```python
     strategy.portfolio(data.get("Close")).optimize(  
         expected_returns="capm_return",
@@ -106,6 +109,7 @@ Optimizing a portfolio to maximise the Sharpe ratio, subject to sector constrain
 Optimizing a portfolio to maximise return for a given risk, subject to sector constraints, with an L2 regularisation objective:
 
 === "pypfopt"
+
     ```python
     from pypfopt.objective_functions import L2_reg
 
@@ -119,6 +123,7 @@ Optimizing a portfolio to maximise return for a given risk, subject to sector co
     ```
 
 === "opendesk"
+
     ```python
     strategy.portfolio(data.get("Close")).optimize(  
         expected_returns="capm_return",
@@ -135,6 +140,7 @@ Optimizing a portfolio to maximise return for a given risk, subject to sector co
 Optimizing along the mean-semivariance frontier:
 
 === "pypfopt"
+
     ```python
     from pypfopt import EfficientSemivariance
     from pypfopt.expected_returns import returns_from_prices
@@ -148,6 +154,7 @@ Optimizing along the mean-semivariance frontier:
     ```
 
 === "opendesk"
+
     ```python
     strategy.portfolio(data.get("Close")).optimize(  
         expected_returns="capm_return",
@@ -163,6 +170,7 @@ Minimizing transaction costs:
 initial_weights = np.array([1 / len(data.symbols)] * len(data.symbols))
 ```
 === "pypfopt"
+
     ```python
     from pypfopt.objective_functions import transaction_cost
 
@@ -176,6 +184,7 @@ initial_weights = np.array([1 / len(data.symbols)] * len(data.symbols))
     ```
 
 === "opendesk"
+
     ```python
     strategy.portfolio(data.get("Close")).optimize(  
         objectives=["transaction_cost", "L2_reg"],
@@ -198,6 +207,7 @@ def logarithmic_barrier_objective(w, cov_matrix, k=0.1):
 ```
 
 === "pypfopt"
+
     ```python
     mu = mean_historical_return(data.get("Close"))
     S = CovarianceShrinkage(data.get("Close")).ledoit_wolf()
@@ -207,6 +217,7 @@ def logarithmic_barrier_objective(w, cov_matrix, k=0.1):
     ```
 
 === "opendesk"
+
     ```python
     strategy.portfolio(data.get("Close")).optimize(  
         weight_bounds=(0.01, 0.3),
@@ -226,6 +237,7 @@ def deviation_risk_parity(w, cov_matrix):
 ```
 
 === "pypfopt"
+
     ```python
     mu = mean_historical_return(data.get("Close"))
     S = CovarianceShrinkage(data.get("Close")).ledoit_wolf()
@@ -235,6 +247,7 @@ def deviation_risk_parity(w, cov_matrix):
     ```
 
 === "opendesk"
+
     ```python
     strategy.portfolio(data.get("Close")).optimize(  
         target=deviation_risk_parity,  
@@ -262,6 +275,7 @@ viewdict = {
 ```
 
 === "pypfopt"
+
     ```python
     from pypfopt.black_litterman import (
         market_implied_risk_aversion,
@@ -280,6 +294,7 @@ viewdict = {
     ```
 
 === "opendesk"
+
     ```python
     strategy.portfolio(data.get("Close")).optimize(  
         expected_returns="bl_returns",  
@@ -293,6 +308,7 @@ viewdict = {
 Hierarchical Risk Parity:
 
 === "pypfopt"
+
     ```python
     from pypfopt import HRPOpt
 
@@ -303,6 +319,7 @@ Hierarchical Risk Parity:
     ```
 
 === "opendesk"
+
     ```python
     strategy.portfolio(data.get("Close")).optimize(  
         optimizer="hrp",
