@@ -60,7 +60,7 @@ The building blocks approach involves sequentially executing multiple steps on a
 ``` mermaid
 graph LR
   id1[(Database)] --> B[Strategy];
-  B --> C[Block A] & D[Block B] & E[Block N];
+  B --> C[Block A] & D[Block B] & E[Block k];
   C --> I[Exposures];
   D --> I;
   E --> I;
@@ -75,11 +75,11 @@ Using multiprocessing can be an efficient way to integrate the blocks. Multiproc
 ``` mermaid
 graph LR
   id1[(Database)] --> B[Strategy];
-  B --> C[Block A] & D[Block B] & E[Block N];
+  B --> C[Block A] & D[Block B] & E[Block k];
   subgraph Multiprocessing
   C --- F[/Score A/];
   D --- G[/Score B/];
-  E --- H[/Score N/];
+  E --- H[/Score k/];
   end
   F --> I[Exposures];
   G --> I;
