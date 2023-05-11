@@ -40,3 +40,10 @@ Several algorithms have therefore been proposed to find reasonably good partitio
 * Divisive algorithms detect inter-community links and remove them from the network
 * Agglomerative algorithms merge similar nodes/communities recursively
 * Optimization methods are based on the maximisation of an objective function
+
+## To Be Continued
+
+Should you be interested in our approach and latest research on quantitative analysis, please feel free to contact us to obtain more detailed information about the PRO version of the package via **LinkedIn**.
+
+[LinkedIn](https://www.linkedin.com/in/j-mr/ ){ .md-button .md-button--primary target="_blank" }
+

@@ -76,3 +76,10 @@ This approach allows for controlling the exposure to the market factor, thereby 
 By integrating the "transition beta" with style factors, which present differing exposures to transition risk, we suggest that these factors can help mitigate the impact of climate transition risk on portfolios.
 
  The "transition beta" provides an explicit, simple, and transparent tool for highlighting implicit and complex financial and non-financial risks. 
+
+ ## To Be Continued
+
+Should you be interested in our approach and latest research on quantitative analysis, please feel free to contact us to obtain more detailed information about the PRO version of the package via **LinkedIn**.
+
+[LinkedIn](https://www.linkedin.com/in/j-mr/ ){ .md-button .md-button--primary target="_blank" }
+

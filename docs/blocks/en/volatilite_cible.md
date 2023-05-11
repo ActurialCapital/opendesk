@@ -42,3 +42,10 @@ To address the issue in targeting portfolio volatility, volatility switching int
 After scaling volatility, the momentum filter is employed to further reduce exposure in declining markets to reach a risk level lower than the target, as long as prices continue to fall. This may result in a loss of some positive returns when markets switch from a negative trend to a positive trend or vice versa. However, research suggests that it is better to miss these turning points and reduce exposure to declining markets rather than endure turbulence.
 
 [^1]: Harvey, C. R., Hoyle, J. B., Korgaonkar, S., Rattray, S., Sargaison, M., & Van Hemert, O. (2019). The impact of volatility targeting. Journal of Portfolio Management, 45(6), 71-88.
+
+## To Be Continued
+
+Should you be interested in our approach and latest research on quantitative analysis, please feel free to contact us to obtain more detailed information about the PRO version of the package via **LinkedIn**.
+
+[LinkedIn](https://www.linkedin.com/in/j-mr/ ){ .md-button .md-button--primary target="_blank" }
+

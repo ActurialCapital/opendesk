@@ -71,3 +71,10 @@ During the 2008 financial crisis in the US, there was a significant rise in shor
     The market-level short interest signal is strong at predicting market return at longer horizons of semi-annual and annual returns. Together these results suggest that short sellers, as a group, can be used as a signal to anticipate for macroeconomic changes and emerging trends in market directions. Short interest based variables also seem to perform better than other popular market timing predictors (Rapach, et al, 2014).
 
 Given the ease of borrowing and shorting most stocks in the US, it is possible to use market-level short interest signals for market timing analysis. Contrary to patterns observed in the cross-sectional analysis, total short interest tends to move in a countercyclical manner. Although aggregated short selling is primarily a trend-following strategy, it has limited potential to stabilize the market. Aggregate short interest is positively associated with the prior month's declines, indicating that short sellers are trend-followers during market downturns. In contrast, during market rallies, short sellers tend to be less aggressive in selling. Our findings suggest that aggregated short interest (Active Utilization) at the market level can predict future market returns. The regression analysis shows that the T-statistics of the predictor variable (Active Utilization) are significant at -1.9, with a p-value of 5.7%. These statistics remain significant even after accounting for heteroscedasticity and autocorrelation using the Newey-West (1987) estimator.
+
+## To Be Continued
+
+Should you be interested in our approach and latest research on quantitative analysis, please feel free to contact us to obtain more detailed information about the PRO version of the package via **LinkedIn**.
+
+[LinkedIn](https://www.linkedin.com/in/j-mr/ ){ .md-button .md-button--primary target="_blank" }
+

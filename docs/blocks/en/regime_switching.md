@@ -76,3 +76,10 @@ We’ll illustrate MLE which finds the values of $P$, $\hat{\beta}_s$ and $\sigm
 $$
 L(\hat{\beta}_s; \sigma^2 P | y) = \prod_{t=1}^{n} f(y=y_t)
 $$
+
+## To Be Continued
+
+Should you be interested in our approach and latest research on quantitative analysis, please feel free to contact us to obtain more detailed information about the PRO version of the package via **LinkedIn**.
+
+[LinkedIn](https://www.linkedin.com/in/j-mr/ ){ .md-button .md-button--primary target="_blank" }
+

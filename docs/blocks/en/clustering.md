@@ -114,3 +114,10 @@ In addition, there are techniques that seek to merge the risk parity and Markowi
 Optimizing a portfolio requires integrating the clustering method with risk parity weighting. The clustering analysis allows us to group similar assets based on their risk characteristics. However, equal weighting should not be used within or between clusters. As a result, cluster weighting should be based on the risks associated with each cluster (Choueifaty and Coignard, 2008).
 
 Nonetheless, clustering is not always an effective means of portfolio optimization, as it may not improve portfolio performance or the Sharpe ratio in all circumstances. In some instances, clustering may even lead to a greater weighting of underperforming assets. Rather than identifying outperforming assets, clustering should be used to manage risk effectively. It is a useful technique for determining the number of similar assets/strategies in the portfolio and for diversifying them efficiently. However, clustering algorithms should be used in conjunction with a return predictor, such as momentum, to select suitable assets for the portfolio (Roncalli, 2013).
+
+## To Be Continued
+
+Should you be interested in our approach and latest research on quantitative analysis, please feel free to contact us to obtain more detailed information about the PRO version of the package via **LinkedIn**.
+
+[LinkedIn](https://www.linkedin.com/in/j-mr/ ){ .md-button .md-button--primary target="_blank" }
+
