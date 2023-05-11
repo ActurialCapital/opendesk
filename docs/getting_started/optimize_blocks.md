@@ -13,14 +13,13 @@ Portfolio optimization using alpha scores has been studied extensively in the fi
 
 There are several advanced techniques for portfolio optimization that take into account different factors such as risk, correlation between assets, liquidity, regulatory, tax or ethical constraints. Here are some of the most commonly used techniques:
 
-* **Markowitz portfolio optimization**: This approach, proposed by Harry Markowitz in 1952, uses the efficient frontier theory to determine the optimal portfolio that offers the best expected return for a given level of risk.
-* **Conditional variance portfolio optimization**: This approach allows for changes in volatility and correlation between assets over time to adjust the portfolio accordingly.
+* **Markowitz portfolio optimization**: This approach, proposed by Harry Markowitz in 1952, uses the efficient frontier theory to determine the optimal portfolio that offers the best expected return for a given level of risk
+* **Conditional variance portfolio optimization**: This approach allows for changes in volatility and correlation between assets over time to adjust the portfolio accordingly
 * **Multi-objective optimization**: This approach considers multiple objectives, such as return, risk, and liquidity, and finds a compromise between these objectives to obtain an optimal portfolio that meets multiple criteria.
-* **Robust optimization**: This approach aims to find an optimal portfolio that is resistant to disturbances and uncertainties by considering different possible scenarios.
-* **AI-based portfolio optimization**: This approach uses machine learning algorithms to analyze historical financial market data and predict future trends, in order to construct an optimal portfolio that maximizes return while minimizing risk.
+* **Robust optimization**: This approach aims to find an optimal portfolio that is resistant to disturbances and uncertainties by considering different possible scenarios
+* **AI-based portfolio optimization**: This approach uses machine learning algorithms to analyze historical financial market data and predict future trends, in order to construct an optimal portfolio that maximizes return while minimizing risk
   
 These different portfolio optimization techniques all have their advantages and limitations, and their choice depends on the specific goals and constraints of each investor.
-
 
 ## Key Takeaways
 
@@ -152,7 +151,7 @@ strategy = Strategy([("reversion", Reversion)]).fit(df).estimate(sum) # (1)
 ```
 
 1.  Calculate sentiment using Reversion Ranking Method.
-    More information provided in the [Model Glossary](/pro_version/model_glossary/sentiment/reversion_models).
+    More information provided in the [Blocks](../blocks/en/index.md).
 
 ### Step 1: Portfolio
 
