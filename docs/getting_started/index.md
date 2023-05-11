@@ -6,9 +6,9 @@ This Get Started guide explains how `opendesk` works, how to install `opendesk` 
 
 <div class="result" markdown>
 
-![Main concepts](../assets/images/flaticon_2.png){ align=left width=80 }
+![Main Concepts](../assets/images/flaticon_2.png){ align=left width=80 }
 
-[Main concepts](./main_concepts.md) introduces you to `opendesk`'s base model and development flow. You'll learn what makes `opendesk` the most powerful way to build systematic strategies, including the ability to customize existing setup. 
+[Main Concepts](./main_concepts.md) introduces you to `opendesk`'s base model and development flow. You'll learn what makes `opendesk` the most powerful way to build systematic strategies, including the ability to customize existing setup. 
 
 </div>
 
