@@ -32,7 +32,7 @@ The Least Absolute Shrinkage and Selection Operator (LASSO) is a linear regressi
 
 In linear regression, the goal is to find a linear relationship between a set of predictor variables and a response variable. However, when there are many predictor variables, some of them may be irrelevant or redundant, leading to overfitting and reduced model interpretability. The LASSO addresses this problem by imposing a penalty on the absolute values of the regression coefficients.
 
-The key idea behind LASSO is to add a term to the ordinary least squares (OLS) objective function, which minimizes the sum of the squared differences between the predicted and actual response values. The added term, called the L1 penalty, is proportional to the sum of the absolute values of the regression coefficients multiplied by a tuning parameter (often denoted as λ).
+The key idea behind LASSO is to add a term to the ordinary least squares (OLS) objective function, which minimizes the sum of the squared differences between the predicted and actual response values. The added term, called the L1 penalty, is proportional to the sum of the absolute values of the regression coefficients multiplied by a tuning parameter (often denoted as $\alpha$).
 
 By tuning the $\alpha$ parameter, the LASSO can shrink the coefficients of less important predictors towards zero, effectively performing variable selection. The higher the value of $\alpha$, the more coefficients are shrunk to zero, resulting in a sparser model with fewer predictors. This property makes LASSO useful in situations where feature selection or identifying the most relevant predictors is important.
 
