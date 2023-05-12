@@ -42,7 +42,7 @@ Is it possible to offset the deterioration in performance by timing the executio
 * Basu and Hung, in their study titled "Anomaly Timing," constructed arbitrage portfolios based on historical market returns. These portfolios have a similar or higher Sharpe ratio even with transaction costs and lower volatility. Such portfolios have significant alphas even for factor models that can explain portfolio returns.
 * Yang, in his study titled "Decomposing Factor Momentum," shows us that the profitability of the momentum factor, when periodically readjusted, is empirically superior to factor timing.
 
-## Conclusion
+## Key Takeaways
 
 Based on academic literature, arbitrage strategies have limitations due to factors such as transaction costs, market uncertainty, limited capital capacity, and associated risks (Fama, 1998; Lakonishok et al., 1994). In addition, the publication of research results can lead to a decrease in profits due to increased competition and imitation of strategies (Chan and Lakonishok, 1993).
 

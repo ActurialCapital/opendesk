@@ -109,7 +109,7 @@ The Markowitz optimal weighting method (Markowitz, 1952) is another commonly use
 
 In addition, there are techniques that seek to merge the risk parity and Markowitz optimal weighting approaches to construct more diversified and performant multi-asset portfolios. One such method is the weighted risk parity method (Choueifaty and Froidure, 2012), which strives to balance both intra-cluster and inter-cluster risks by utilizing Markowitz optimal weighting for assets between clusters. By doing so, this method allows for the creation of multi-asset portfolios that are more diversified and able to withstand market changes both within and between clusters.
 
-## Conclusion
+## Key Takeaways
 
 Optimizing a portfolio requires integrating the clustering method with risk parity weighting. The clustering analysis allows us to group similar assets based on their risk characteristics. However, equal weighting should not be used within or between clusters. As a result, cluster weighting should be based on the risks associated with each cluster (Choueifaty and Coignard, 2008).
 

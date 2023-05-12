@@ -16,7 +16,7 @@ DTW can be used to evaluate the performance of a momentum strategy by comparing 
 
 Using DTW, portfolio managers can identify periods when the momentum strategy has outperformed or underperformed relative to the benchmark index or other portfolios, and adjust their investment strategy accordingly. If the momentum strategy does not achieve the expected results, it may be necessary to reevaluate the assets included in the portfolio or revise the strategy parameters.
 
-## Conclusion
+## Key Takeaways
 
 As a conclusion, DTW is a useful time series analysis technique for comparing the performance of a momentum strategy with that of a benchmark index or another portfolio, allowing portfolio managers to adjust their investment strategy based on the results obtained.
 
