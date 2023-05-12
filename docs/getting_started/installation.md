@@ -83,7 +83,7 @@ The alternative is to clone the project:
 
 <div class="termy">
   ```console
-  $ git clone https://github.com/ActurialCapital/xyz.git
+  $ git clone https://github.com/ActurialCapital/opendesk.git
   $ cd myproject
   $ python setup.py install
   ```
