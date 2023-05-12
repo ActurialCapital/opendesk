@@ -102,6 +102,21 @@ $$
 L(\hat{\beta}_s; \sigma^2 P | y) = \prod_{t=1}^{n} f(y=y_t)
 $$
 
+## Application to Financial Decision
+
+These data-driven approaches propose a learning technique that employs a significant volume of historical data to identify and determine regimes. The resulting model output encompasses four clusters, or market conditions, which have been labeled as:
+
+1. Crisis
+2. Steady State
+3. Inflation
+4. Walking on Ice (WOI) 
+
+Based on their respective characteristics.
+In order to identify periods of persistent market conditions, an analysis of their behavior throughout history was conducted. We found multiple potential applications for allocators:
+
+* **Risk management** stands as one such application, as allocators can enhance their portfolio scenario analysis by sampling from the distributions of these identified market conditions, thereby subjecting their portfolios to stress tests
+* Another application is related to **asset allocation decisions**. Predicting market returns over extended periods of time proves challenging, even in stable market conditions. The findings presented provide evidence of rapidly changing market conditions, thereby making it even more difficult to rely on long-term forecasts. Consequently, allocators may need to design portfolios capable of withstanding market condition volatility in the long run, while also considering opportunities for tactical shifts on shorter time horizons.
+
 ## :material-lock: Learn More...
 
 Should you be interested in our approach and latest research on quantitative analysis, please feel free to contact us to obtain more detailed information about the PRO version of the package via **LinkedIn**.

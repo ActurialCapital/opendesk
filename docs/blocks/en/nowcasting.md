@@ -78,7 +78,7 @@ The SVAR method consists of several key steps:
   
 The SVAR method allows for the modeling of complex causal relationships between economic variables. The method is also useful for policy analysis as it allows for the analysis of the impact of policy changes on the economy as a whole.
 
-## Conclusion
+## Key Takeaways
 
 Each nowcasting model has its own set of strengths and weaknesses:
 
