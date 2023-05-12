@@ -180,7 +180,7 @@ nav:
     - index.md
     - Getting Started: getting_started/index.md
     - Documentation: documentation/index.md
-    - Blocks: blocks/index.md
+    - Blocks: blocks/en/index.md
     - Contact: contacts/index.md
     - Terms: terms/index.md
   - Getting Started:
