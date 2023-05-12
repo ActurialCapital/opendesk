@@ -22,7 +22,7 @@ The analysis of multivariate signals requires specialized techniques to handle t
 
 By aggregating features from different signals, analysts can extract high-level patterns and relationships that might not be evident when considering individual signals in isolation. This approach helps overcome the limitations of single-signal analysis, such as overlooking important interactions or failing to capture the full complexity of the underlying data. By leveraging the complementary information embedded in each signal, multivariate analysis enables more accurate modeling and prediction of market behavior.
 
-## Multi Signal Learning
+## Signal Learning
 
 Machine learning algorithms excel at identifying complex patterns and relationships within large and diverse datasets, making them well-suited for handling different market signals. These algorithms can automatically learn and adapt to the inherent structure and dependencies present in the data, uncovering valuable insights that may not be apparent through traditional statistical methods.
 
