@@ -32,10 +32,8 @@ The fundamental idea behind multi-signals learning is to extract a unified repre
 
 Multi-signals learning can be categorized into two main types: 
 
-* Co-training and joint learning
-* Co-training algorithms involve training separate models on each view and iteratively updating the models by transferring information from one view to another
-
-This iterative process allows the models to refine their understanding of the data through the exchange of knowledge between views. On the other hand, joint learning algorithms aim to learn a common representation for all views simultaneously, leveraging the interactions and relationships between different signals to enhance the learning process.
+* Co-training and joint learning, which aim to learn a common representation for all views simultaneously, leveraging the interactions and relationships between different signals to enhance the learning process
+* Co-training algorithms involve training separate models on each view and iteratively updating the models by transferring information from one view to another. This iterative process allows the models to refine their understanding of the data through the exchange of knowledge between views
 
 The application of multi-signals learning in quantitative analysis has shown promising results in improving investment strategies and decision-making. By considering multiple perspectives and leveraging the complementary information provided by different signals, practitioners can gain a more comprehensive understanding of the market dynamics and make more informed investment decisions.
 
