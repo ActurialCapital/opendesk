@@ -20,7 +20,7 @@ Using DTW, portfolio managers can identify periods when the momentum strategy ha
 
 As a conclusion, DTW is a useful time series analysis technique for comparing the performance of a momentum strategy with that of a benchmark index or another portfolio, allowing portfolio managers to adjust their investment strategy based on the results obtained.
 
-## ...To Be Continued
+## :material-lock: Learn More...
 
 Should you be interested in our approach and latest research on quantitative analysis, please feel free to contact us to obtain more detailed information about the PRO version of the package via **LinkedIn**.
 

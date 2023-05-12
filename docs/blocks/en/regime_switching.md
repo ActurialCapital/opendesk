@@ -4,7 +4,7 @@ icon: fontawesome/solid/charging-station
 
 # Regime Switching
 
-## Introduction
+## Definition
 
 !!! info
     Financial markets change their behavior over time, which can create periods of persistent market conditions. Time-series Classification is a general task that can be useful to identify these regime changes, using labeled training data.
@@ -20,7 +20,7 @@ Regime identification can be accomplished by using either subjective knowledge a
 
 This article focuses a the latter.
 
-## Probabilitic Methods
+## Probabilistic Methods
 
 ### Classification: Gaussian Mixture Models
 
@@ -32,6 +32,31 @@ GMM applies multiple Gaussian distributions to model different segments of the d
     The only hyperparameter in the GMM is the number of clusters, which can be selected using a cross-validation approach. The log-likelihood criterion is typically used to measure the goodness-of-fit, although other criteria such as AIC and p-value can also be used. The results obtained using these alternative criteria are generally similar to those obtained using log-likelihood (McAssey, 2013).
 
 Each period in the dataset is assumed to be independent and identically distributed. The GMM is used to identify periods where market conditions exhibit some persistence, although it has been shown that it is uncommon for one market condition to persist for extended periods without interruption from another. Short-term transient themes can emerge, and market conditions can change abruptly (as seen during the COVID market crisis in early 2020). The GMM is reactive to these changes, resulting in sudden market condition switches.
+
+A Gaussian Mixture is a function that is comprised of several Gaussians, each identified by $k ∈ {1,…, K}$, where $K$ is the number of clusters of our dataset. Each Gaussian  in the mixture is comprised of the following parameters:
+
+* A mean $\mu$ that defines its centre
+* A covariance $\sum$ that defines its width. This would be equivalent to the dimensions of an ellipsoid in a multivariate scenario
+* A mixing probability $\pi$ that defines how large the Gaussian function is
+
+For instance, in a three Gaussian functions, $K=3$, each Gaussian explains the data contained in each of the three clusters available. The mixing coefficients are themselves probabilities and equates to 1, such as 
+
+$$
+\sum_{k=1}^{K} \pi_k = 1
+$$
+
+To optimize these parameters, each Gaussian fits the data points belonging to each cluster through maximum of likelihood.
+
+!!! tips
+    GMM model answers the question: “Given a data point $x$, what is the probability it came from Gaussian $k$?”
+
+The Expectation — Maximization (EM)  is widely used for optimization problems where the objective function has complexities in the derivation process.
+
+Let the parameters of our model be $\theta = \{\pi, \mu, \sum\}$
+
+1. Initialise $\theta$: For instance, we can use the results obtained by a previous K-Means run as a good starting point for our algorithm
+2. Expectation step: Evaluate the probability the data point come from Gaussian $k$ by maximum of likelihood, which is the result of calculating the joint probability of all observations and latent variables and is an extension of our initial derivations for $p(x)$
+3. Maximization step: Find the revised parameters in order to fin a local maximum
 
 ### Regression: Markov Switching Models
 
@@ -77,7 +102,7 @@ $$
 L(\hat{\beta}_s; \sigma^2 P | y) = \prod_{t=1}^{n} f(y=y_t)
 $$
 
-## ...To Be Continued
+## :material-lock: Learn More...
 
 Should you be interested in our approach and latest research on quantitative analysis, please feel free to contact us to obtain more detailed information about the PRO version of the package via **LinkedIn**.
 

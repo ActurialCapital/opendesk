@@ -89,7 +89,7 @@ Each nowcasting model has its own set of strengths and weaknesses:
 
 We have developed several econometric methods that aim to produce quasi-real-time estimates of economic indicators. We believe that multiple methods are necessary to meet constraints of each phase of the cycle, obtain a more comprehensive picture of the current and future economic situation, and to reduce model risk.
 
-## ...To Be Continued
+## :material-lock: Learn More...
 
 Should you be interested in our approach and latest research on quantitative analysis, please feel free to contact us to obtain more detailed information about the PRO version of the package via **LinkedIn**.
 

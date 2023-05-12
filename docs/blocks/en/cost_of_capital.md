@@ -40,7 +40,7 @@ The excess return over bonds implied in the current market price, which must be 
     * Cross-sectional regression
     * Default risk
 
-## ...To Be Continued
+## :material-lock: Learn More...
 
 Should you be interested in our approach and latest research on quantitative analysis, please feel free to contact us to obtain more detailed information about the PRO version of the package via **LinkedIn**.
 

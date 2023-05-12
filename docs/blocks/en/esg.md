@@ -77,7 +77,7 @@ By integrating the "transition beta" with style factors, which present differing
 
  The "transition beta" provides an explicit, simple, and transparent tool for highlighting implicit and complex financial and non-financial risks. 
 
- ## ...To Be Continued
+## :material-lock: Learn More...
 
 Should you be interested in our approach and latest research on quantitative analysis, please feel free to contact us to obtain more detailed information about the PRO version of the package via **LinkedIn**.
 
