@@ -202,6 +202,9 @@ nav:
       - documentation/api/strategy/backtest.md
     - Signals:
         - documentation/api/signals/index.md
+        - documentation/api/signals/univariate_signals.md
+        - documentation/api/signals/multivariate_signals.md
+        - documentation/api/signals/multi_signal_learning.md
     - Workflow:
       - documentation/workflow/index.md
       - documentation/workflow/data.md
