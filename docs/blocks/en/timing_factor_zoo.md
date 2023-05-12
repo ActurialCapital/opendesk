@@ -1,5 +1,5 @@
 ---
-icon: fontawesome/solid/lock
+icon: material/lock
 ---
 
 # Timing Factor Zoo

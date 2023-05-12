@@ -204,6 +204,9 @@ nav:
         - documentation/api/signals/index.md
     - Workflow:
       - documentation/workflow/index.md
+      - documentation/workflow/data.md
+      - documentation/workflow/extract.md
+      - documentation/workflow/scheduling.md
     - Contributing:
       - documentation/contributing/index.md   
   - Blocks:

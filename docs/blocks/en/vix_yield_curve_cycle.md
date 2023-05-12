@@ -1,5 +1,5 @@
 ---
-icon: fontawesome/solid/lock
+icon: material/lock
 ---
 
 # VIX yield Curve Cycle

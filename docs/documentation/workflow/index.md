@@ -1,5 +1,5 @@
 ---
-icon: fontawesome/solid/database
+icon: fontawesome/solid/arrows-spin
 ---
 
 # Workflow
