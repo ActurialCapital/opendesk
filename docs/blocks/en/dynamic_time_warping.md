@@ -1,5 +1,5 @@
 ---
-icon: fontawesome/solid/chart-line
+icon: fontawesome/solid/forward-step
 ---
 
 # Dynamic Time Warping
