@@ -8,11 +8,11 @@ In the world of quantitative analysis and investment strategies, the ability to 
 
 This section delve deeper into the concepts of univariate, aggregation and multi-variate signals, and the principles behind multi-signals learning. We explore various approaches and techniques used in this field, highlighting their benefits and potential challenges. Through a better understanding of investment signals in quantitative analysis and the power of multi-signals learning, we can unlock new opportunities for generating alpha and achieving superior investment performance.
 
-## Univariate Signals
+## Univariate
 
 One aspect of analyzing investment signals involves dealing with univariate signals, which focus on individual indicators or features of a dataset. These signals are typically analyzed in isolation, without considering the potential benefits of incorporating information from other sources.
 
-## Multivariate Signals
+## Multivariate
 
 In quantitative analysis, the utilization of multivariate signals has gained significant attention due to its ability to capture a more comprehensive understanding of financial markets. Multivariate signals refer to datasets that consist of multiple indicators or features, each providing a distinct perspective on the underlying data. By incorporating multiple views or modalities, multivariate signals offer a more holistic representation of complex market dynamics, thereby enhancing the predictive power and accuracy of investment models.
 
