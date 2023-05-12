@@ -28,7 +28,7 @@ Moreover, market anomalies exhibit returns that vary over time, and a significan
 
 An example of an arbitrage limit is the "dispersion of risk premiums," which refers to the variation in security returns within a given market. This dispersion creates arbitrage opportunities for investors, but these opportunities are limited by transaction costs, counterparty risks, and leverage constraints. Frazzini and Pedersen (2014) show that hedge funds have suboptimal positions due to leverage constraints and transaction costs and thus cannot fully exploit arbitrage opportunities.
 
-## Returns et Publications
+## Returns and Publications
 
  Academic research on market anomalies can have a significant impact on the profitability of these strategies. When researchers publish academic studies on market anomalies, it can affect the profitability of strategies. Although similar strategy funds may experience a decrease in profitability after disclosure, it is important to note that returns do not immediately decrease. In fact, a significant proportion of profitability is still present. Studies have shown that returns of published strategies may decrease up to 26% out of sample and up to 58% during the five years following publication (Novy-Marx, 2013). However, even after five years, a non-negligible proportion of the anomaly-related profitability is still preserved and can still be used profitably in a diversified portfolio as a risk factor (smart beta).
 
