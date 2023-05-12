@@ -2,7 +2,7 @@
 icon: fontawesome/solid/arrows-spin
 ---
 
-# Workflow
+# :material-lock: Workflow
 
 !!! info "What is AWS CloudFormation?"
     Documentation available on [What is AWS CloudFormation? - AWS CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html).

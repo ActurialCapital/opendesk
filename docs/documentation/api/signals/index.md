@@ -2,7 +2,7 @@
 icon: fontawesome/solid/spinner
 ---
 
-# Signals
+# :material-lock: Signals
 
 In the world of quantitative analysis and investment strategies, the ability to effectively interpret and utilize investment signals is of paramount importance. Investment signals refer to various indicators or patterns in financial data that can provide insights into the future performance of assets or markets. In recent years, advancements in machine learning and data analysis have significantly enhanced the way investment signals are analyzed and used in decision-making processes.
 
