@@ -10,7 +10,7 @@ The correlation structure of securities is a key quantity in describing and mana
 
 By producing a network with nodes being stocks and edges corresponding to relationship (through a distance metric), we are able to model the interconnected structure of a universe of securities. This has been shown to provide a powerful framework to investigate individual company properties in the context of others. We investigated how filtered networks (namely Minimum Spanning Trees (MST) and Planar Maximally Filtered Graphs (PMFG)) can be used to explore the diversification properties of securities. The elegance of this method is such that the networks efficiently encode complex dependency structures whilst remaining computationally tractable. We then use this to construct portfolios based on subsets of stocks with different network properties. Using similar modelling techniques, we are able to explore the network topology for our stock properties within the portfolio. These properties may be exploited in order to enhance portfolio construction methods which may be particularly useful for managed volatility strategies.
 
-## Neutralize to Correlation Cluster
+## Diversification
 
 Risk is not uniformly spread across financial markets and this fact can be exploited to reduce investment risk within a given portfolio. By extracting the dependency structure of financial equities, a network approach can be used to build a well-diversified portfolio that effectively reduces investment risk. 
 
