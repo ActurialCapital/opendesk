@@ -196,5 +196,10 @@ weights = strategy.optimize(
   ```
 </div>
 
+<figure markdown>
+  ![Backtest](../assets/images/optimization.png)
+  <figcaption>Figure 1: Example Weights</figcaption>
+</figure>
+
 [^1]: Chen, L., Novy-Marx, R., & Zhang, L. (2013). Factor Premia and Interaction with the Market Portfolio. Journal of Financial Economics, 110(1), 1-35.
 [^2]: Geczy, C., Musto, D., & Reed, A. (2005). A simple approach to performance attribution for hedge funds: the case of equity market neutral strategies. Review of Financial Studies, 18(2), 367-384.
