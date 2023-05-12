@@ -178,6 +178,11 @@ extra_javascript:
 nav:
   - Home:
     - index.md
+    - Getting Started: getting_started/index.md
+    - Documentation: documentation/index.md
+    - Blocks: blocks/index.md
+    - Contact: contacts/index.md
+    - Terms: terms/index.md
   - Getting Started:
     - getting_started/index.md
     - getting_started/main_concepts.md
@@ -241,8 +246,6 @@ nav:
       - blocks/en/state_space_models_and_the_kalman_filter.md
       - blocks/en/asset_class_correlations.md
       - blocks/en/valuation_spread_methods.md
-
-
   - Contact: 
     - contacts/index.md
   - Terms: 
