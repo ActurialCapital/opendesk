@@ -4,6 +4,8 @@ icon: fontawesome/solid/arrows-spin
 
 # :material-lock: Workflow
 
+## AWS CloudFormation
+
 !!! info "What is AWS CloudFormation?"
     Documentation available on [What is AWS CloudFormation? - AWS CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html).
 
@@ -34,3 +36,9 @@ sequenceDiagram
 ```
 
 This eliminates the need for manual resource creation and configuration, and also helps to manage the dependencies between resources. As a result, you can focus more on developing your applications that run on AWS, rather than spending time on resource management. The following scenarios illustrate how CloudFormation can be used to streamline the resource management process.
+
+## :material-lock: Learn More...
+
+Should you be interested in our approach and latest research on quantitative analysis, please feel free to contact us to obtain more detailed information about the PRO version of the package via **LinkedIn**.
+
+[LinkedIn](https://www.linkedin.com/in/j-mr/ ){ .md-button .md-button--primary target="_blank" }
