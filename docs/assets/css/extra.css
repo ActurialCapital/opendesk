@@ -146,3 +146,9 @@ div.mermaid {
   pointer-events: none;
   cursor: none;
 }
+
+.md-banner {
+    background-color: #FFFDD0;
+    color: #000000;
+    overflow: auto;
+}
