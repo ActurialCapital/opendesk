@@ -141,3 +141,8 @@ div.mermaid {
   /* --md-code-hl-color: #ededed; */
   --md-code-hl-color: #444c56;
 }
+
+.glightbox {
+  pointer-events: none;
+  cursor: none;
+}
