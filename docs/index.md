@@ -88,7 +88,7 @@ The building blocks approach provides a comprehensive yet flexible means of fina
 
 ![Workflow](./assets/images/padlock.png){ align=left width=80 }
 
-[Workflow](./documentation/api/workflow/index.md) eliminates the need for manual resource creation and configuration, and also helps to manage the dependencies between resources. As a result, you can focus more on developing your applications that run on AWS, rather than spending time on resource management.
+[Workflow](./documentation/workflow/index.md) eliminates the need for manual resource creation and configuration, and also helps to manage the dependencies between resources. As a result, you can focus more on developing your applications that run on AWS, rather than spending time on resource management.
 </div>
 
 ***
