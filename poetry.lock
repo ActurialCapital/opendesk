@@ -30,6 +30,21 @@ optional = false
 python-versions = ">=3.7"
 
 [[package]]
+name = "beautifulsoup4"
+version = "4.12.2"
+description = "Screen-scraping library"
+category = "main"
+optional = false
+python-versions = ">=3.6.0"
+
+[package.dependencies]
+soupsieve = ">1.2"
+
+[package.extras]
+html5lib = ["html5lib"]
+lxml = ["lxml"]
+
+[[package]]
 name = "cairocffi"
 version = "1.5.1"
 description = "cffi-based cairo bindings for Python"
@@ -273,6 +288,31 @@ python-versions = ">=3.7"
 [package.dependencies]
 Markdown = ">=3.3"
 mkdocs = ">=1.1"
+
+[[package]]
+name = "mkdocs-git-authors-plugin"
+version = "0.7.0"
+description = "Mkdocs plugin to display git authors of a page"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+mkdocs = ">=1.0"
+
+[[package]]
+name = "mkdocs-git-committers-plugin-2"
+version = "1.1.2"
+description = "An MkDocs plugin to create a list of contributors on the page"
+category = "main"
+optional = false
+python-versions = ">=2.7"
+
+[package.dependencies]
+beautifulsoup4 = "*"
+gitpython = "*"
+mkdocs = ">=1.0.3"
+requests = "*"
 
 [[package]]
 name = "mkdocs-git-revision-date-localized-plugin"
@@ -548,6 +588,14 @@ optional = false
 python-versions = ">=3.6"
 
 [[package]]
+name = "soupsieve"
+version = "2.4.1"
+description = "A modern CSS selector implementation for Beautiful Soup."
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[[package]]
 name = "tinycss2"
 version = "1.2.1"
 description = "A tiny CSS parser"
@@ -606,7 +654,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "d074016886705cca5f1a5df7a199242b36cfef60fcb67553ca93c89f71d248f2"
+content-hash = "7e4f7e25eef865c20873e8c331410702a575c7295588353ae69230c490124d47"
 
 [metadata.files]
 atomicwrites = [
@@ -619,6 +667,10 @@ attrs = [
 babel = [
     {file = "Babel-2.12.1-py3-none-any.whl", hash = "sha256:b4246fb7677d3b98f501a39d43396d3cafdc8eadb045f4a31be01863f655c610"},
     {file = "Babel-2.12.1.tar.gz", hash = "sha256:cc2d99999cd01d44420ae725a21c9e3711b3aadc7976d6147f622d8581963455"},
+]
+beautifulsoup4 = [
+    {file = "beautifulsoup4-4.12.2-py3-none-any.whl", hash = "sha256:bd2520ca0d9d7d12694a53d44ac482d181b4ec1888909b035a3dbf40d0f57d4a"},
+    {file = "beautifulsoup4-4.12.2.tar.gz", hash = "sha256:492bbc69dca35d12daac71c4db1bfff0c876c00ef4a2ffacce226d4638eb72da"},
 ]
 cairocffi = [
     {file = "cairocffi-1.5.1.tar.gz", hash = "sha256:071ab7b72e3533300b0bfd55a52056b4ffdc1ed6e656779e2aced9b709b8a295"},
@@ -884,6 +936,14 @@ mkdocs = [
 mkdocs-autorefs = [
     {file = "mkdocs-autorefs-0.4.1.tar.gz", hash = "sha256:70748a7bd025f9ecd6d6feeba8ba63f8e891a1af55f48e366d6d6e78493aba84"},
     {file = "mkdocs_autorefs-0.4.1-py3-none-any.whl", hash = "sha256:a2248a9501b29dc0cc8ba4c09f4f47ff121945f6ce33d760f145d6f89d313f5b"},
+]
+mkdocs-git-authors-plugin = [
+    {file = "mkdocs-git-authors-plugin-0.7.0.tar.gz", hash = "sha256:087b63090ebbf6b93f20d8b8e5fbac8e8b140e2107e432ca2ac8dd1d3a1000f5"},
+    {file = "mkdocs_git_authors_plugin-0.7.0-py3-none-any.whl", hash = "sha256:cc469208f98e9db08561eac08a9d8ccd0209a60ee5bd0e3e94b6840a5abc54b6"},
+]
+mkdocs-git-committers-plugin-2 = [
+    {file = "mkdocs-git-committers-plugin-2-1.1.2.tar.gz", hash = "sha256:745993c4b486de0023ea4c2758daa7a8790a60ac6e369b55203db165d203be80"},
+    {file = "mkdocs_git_committers_plugin_2-1.1.2-py3-none-any.whl", hash = "sha256:7ffa7c6eaae3ade9eaac625bd7dc155e8a543261c81a0354d12909b49eb48588"},
 ]
 mkdocs-git-revision-date-localized-plugin = [
     {file = "mkdocs-git-revision-date-localized-plugin-1.2.0.tar.gz", hash = "sha256:7752edd7c4dcaa9383e9a5b6a4f729831a62d604b0c43b319331127720c6a2bf"},
@@ -1168,6 +1228,10 @@ six = [
 smmap = [
     {file = "smmap-5.0.0-py3-none-any.whl", hash = "sha256:2aba19d6a040e78d8b09de5c57e96207b09ed71d8e55ce0959eeee6c8e190d94"},
     {file = "smmap-5.0.0.tar.gz", hash = "sha256:c840e62059cd3be204b0c9c9f74be2c09d5648eddd4580d9314c3ecde0b30936"},
+]
+soupsieve = [
+    {file = "soupsieve-2.4.1-py3-none-any.whl", hash = "sha256:1c1bfee6819544a3447586c889157365a27e10d88cde3ad3da0cf0ddf646feb8"},
+    {file = "soupsieve-2.4.1.tar.gz", hash = "sha256:89d12b2d5dfcd2c9e8c22326da9d9aa9cb3dfab0a83a024f05704076ee8d35ea"},
 ]
 tinycss2 = [
     {file = "tinycss2-1.2.1-py3-none-any.whl", hash = "sha256:2b80a96d41e7c3914b8cda8bc7f705a4d9c49275616e886103dd839dfc847847"},
