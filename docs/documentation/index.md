@@ -17,9 +17,18 @@ The building blocks approach provides a comprehensive yet flexible means of fina
 
 <div class="result" markdown>
 
-![Signals](../assets/images/flaticon_7.png){ align=left width=80 }
+![Signals](../assets/images/padlock.png){ align=left width=80 }
 
 [Signals](./api/signals/index.md) constructs transfomed dataset, which are used to build strategies. Examples including High Frequency Indicators, Nowcasts/Forecasts or Alpha Signals.
+</div>
+
+***
+
+<div class="result" markdown>
+
+![Workflow](../assets/images/padlock.png){ align=left width=80 }
+
+[Workflow](./api/workflow/index.md/) eliminates the need for manual resource creation and configuration, and also helps to manage the dependencies between resources. As a result, you can focus more on developing your applications that run on AWS, rather than spending time on resource management.
 </div>
 
 ***

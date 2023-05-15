@@ -35,7 +35,7 @@ sequenceDiagram
     AWS S3->>Terminal: Online Access
 ```
 
-This eliminates the need for manual resource creation and configuration, and also helps to manage the dependencies between resources. As a result, you can focus more on developing your applications that run on AWS, rather than spending time on resource management. The following scenarios illustrate how CloudFormation can be used to streamline the resource management process.
+This eliminates the need for manual resource creation and configuration, and also helps to manage the dependencies between resources. As a result, you can focus more on developing your applications that run on AWS, rather than spending time on resource management. The above scenarios illustrate how CloudFormation can be used to streamline the resource management process.
 
 ## :material-lock: Learn More...
 

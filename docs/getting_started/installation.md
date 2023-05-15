@@ -33,7 +33,7 @@ Below are a few tools you can use for environment management:
 ## Install Opendesk
 
 !!! note "Troubleshooting"
-    If any of these methods don’t work, please [raise an issue](https://github.com/ActurialCapital/xyz/issues) with the ‘packaging’ label on GitHub.
+    If any of these methods don’t work, please [raise an issue](https://github.com/ActurialCapital/opendesk/issues) with the ‘packaging’ label on GitHub.
 
 prior to using the below commands, you may need to follow the installation instructions for [cvxopt](https://cvxopt.org/install/index.html#) and [cvxpy](https://www.cvxpy.org/install/)).
 
