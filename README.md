@@ -1,7 +1,7 @@
-<p align="center">
-    <img src="https://github.com/ActurialCapital/opendesk/blob/main/docs/assets/images/opendesk-logo.png" width="100%" height="100%">
-    <img src="https://github.com/ActurialCapital/opendesk/blob/main/docs/assets/images/padlock.png" width="100%" height="100%">
+<p align="right">
+    <img src="https://github.com/ActurialCapital/opendesk/blob/main/docs/assets/images/opendesk-logo.png" width="30%" height="30%">
 </p>
+
 
 # Getting Started
 
