@@ -30,6 +30,7 @@ jobs:
       - run: pip install mkdocstrings
       - run: pip install mkdocstrings-python
       - run: pip install mkdocs-glightbox
+      - run: pip install pillow cairosvg
       - run: mkdocs gh-deploy --force
 env:
   GH_TOKEN: ${{ secrets.GH_TOKEN }} 
