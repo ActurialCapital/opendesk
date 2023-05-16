@@ -99,6 +99,13 @@ extra_css:
   - assets/css/custom.css
 
 plugins:
+  - typeset
+  - meta
+  # - optimize
+  # - git-committers:
+  #   repository: ActurialCapital/opendesk
+  #   branch: main
+  # - git-authors
   - glightbox
   - git-revision-date-localized:
       enable_creation_date: true
@@ -115,13 +122,7 @@ plugins:
   #       options:
   #         show_source: false
   #         show_csource_code: false
-  - typeset
-  - meta
-  # - optimize
-  # - git-committers:
-  #   repository: ActurialCapital/opendesk
-  #   branch: main
-  # - git-authors
+
 
 markdown_extensions:
   # Python Markdown
@@ -210,10 +211,14 @@ nav:
         - documentation/api/signals/univariate_signals.md
         - documentation/api/signals/multivariate_signals.md
         - documentation/api/signals/multi_signal_learning.md
+    - Synthetic:
+        - documentation/api/synthetic/index.md
     - Workflow:
       - documentation/workflow/index.md
       - documentation/workflow/data.md
+      - documentation/workflow/load.md
       - documentation/workflow/extract.md
+      - documentation/workflow/transform.md
       - documentation/workflow/scheduling.md
     - Contributing:
       - documentation/contributing/index.md   

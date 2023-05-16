@@ -1,27 +1,58 @@
 [tool.poetry]
-name = "acturialcapital-docs"
+name = "opendesk"
 version = "0.1.0"
-description = ""
-authors = ["ActurialCapital <36569113+ActurialCapital@users.noreply.github.com>"]
+description = "Building alpha blocks with opendesk."
+authors = ["ActurialCapital"]
 
 [tool.poetry.dependencies]
-python = "^3.10"
-mkdocs-glightbox = "^0.3.1"
-mkdocstrings-python = "^0.8.3"
-mkdocstrings = "^0.19.1"
-mkdocs-autorefs = "^0.4.1"
-mkdocs-git-revision-date-localized-plugin = "^1.1.0"
-mkdocs-material = "^9.0.5"
-jieba = "^0.42.1"
-pngquant = "^1.0.7"
-Pillow = "^9.5.0"
-CairoSVG = "^2.7.0"
-mkdocs-git-committers-plugin-2 = "^1.1.2"
-mkdocs-git-authors-plugin = "^0.7.0"
+python = ">=3.10,<3.11"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
+mypy = "*"
+perflint = "*"
+pre-commit = "*"
+pylint = "*"
+pytest = "*"
+pytest-cov = "*"
+jupyter = "^1.0.0"
+
+[tool.poetry-dynamic-versioning.substitution]
+files = ["*/__init__.py"]
+
+[tool.poetry-dynamic-versioning]
+enable = true
+format-jinja = """
+
+    {%- if dirty -%}
+        {{ serialize_pep440(base, stage, revision, dev=distance, metadata=[commit]) }}
+    {%- elif distance == 0 -%}
+        {{ serialize_pep440(base, stage, revision) }}
+    {%- else -%}
+        {{ serialize_pep440(bump_version(base), stage, revision, dev=distance) }}
+    {%- endif -%}
+
+"""
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q --cov=template --cov-report html"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 79
+include = '\.pyi?$'
+exclude = '''
+/(
+	\.git
+| \.hg
+| \.mypy_cache
+| \.tox
+| \.venv
+| _build
+| buck-out
+| build   
+)/ 
+'''
