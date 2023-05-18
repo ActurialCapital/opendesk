@@ -1,5 +1,7 @@
 # Ignore specific folders
 opendesk/
+examples/
+gcc/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

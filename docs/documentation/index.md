@@ -26,6 +26,15 @@ The building blocks approach provides a comprehensive yet flexible means of fina
 
 <div class="result" markdown>
 
+![Synthetic](../assets/images/padlock.png){ align=left width=80 }
+
+[Synthetic](./api/synthetic/index.md) market or economic data refers to artificially generated datasets that mimic real-world economic or market conditions. Synthetic data can be used for various purposes, including research, testing economic models, simulating extreme events, evaluating strategies, or providing training data in situations where real data is limited or sensitive.
+</div>
+
+***
+
+<div class="result" markdown>
+
 ![Workflow](../assets/images/padlock.png){ align=left width=80 }
 
 [Workflow](./workflow/index.md) eliminates the need for manual resource creation and configuration, and also helps to manage the dependencies between resources. As a result, you can focus more on developing your applications that run on AWS, rather than spending time on resource management.
