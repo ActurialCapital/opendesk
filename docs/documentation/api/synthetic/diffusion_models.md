@@ -1,5 +1,5 @@
 ---
-icon: fontawesome/solid/diamond
+icon: fontawesome/solid/fire
 ---
 
 # :material-lock: Diffusion Models
