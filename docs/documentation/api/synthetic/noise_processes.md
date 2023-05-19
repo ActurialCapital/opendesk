@@ -1,5 +1,5 @@
 ---
-icon: fontawesome/brands/think-peaks
+icon: fontawesome/solid/flask
 ---
 
 # :material-lock: Noise Processes

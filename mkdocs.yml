@@ -214,7 +214,7 @@ nav:
     - Synthetic:
         - documentation/api/synthetic/index.md
         - documentation/api/synthetic/random_number_generation.md
-        - documentation/api/synthetic/continuous_timne_processes.md
+        - documentation/api/synthetic/continuous_time_processes.md
         - documentation/api/synthetic/diffusion_models.md
         - documentation/api/synthetic/discrete_time_processes.md
         - documentation/api/synthetic/noise_processes.md
