@@ -20,8 +20,8 @@ The building blocks approach provides a comprehensive yet flexible means of fina
 
 * [Strategy](https://acturialcapital.github.io/opendesk/documentation/api/strategy/) is the main implementation of the library for portfolio construction, which initializes the execution of the sequence of blocks and allows to compute tilts/exposures, create and backtest target portfolios.
 * [Signals](https://acturialcapital.github.io/opendesk/documentation/api/signals/) constructs transfomed dataset, which are used to build strategies. Examples including High Frequency Indicators, Nowcasts/Forecasts or Alpha Signals.
-* [Workflow](https://acturialcapital.github.io/opendesk/documentation/api/workflow/) eliminates the need for manual resource creation and configuration, and also helps to manage the dependencies between resources. As a result, you can focus more on developing your applications that run on AWS, rather than spending time on resource management.
-* [Contributing](https://acturialcapital.github.io/opendesk/documentation/api/contributing/) shows the rearch philosophy and developement guildeline.
+* [Workflow](https://acturialcapital.github.io/opendesk/documentation/workflow/) eliminates the need for manual resource creation and configuration, and also helps to manage the dependencies between resources. As a result, you can focus more on developing your applications that run on AWS, rather than spending time on resource management.
+* [Contributing](https://acturialcapital.github.io/opendesk/documentation/contributing/) shows the rearch philosophy and developement guildeline.
 
 # Installation
 

@@ -11,6 +11,7 @@ hurst = "^0.0.5"
 pandas-ta = "^0.3.14-beta.0"
 aiohttp = "^3.8.4"
 python-binance = "^1.0.17"
+statsmodels = "^0.14.0"
 
 [tool.poetry.dev-dependencies]
 mypy = "*"
