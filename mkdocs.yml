@@ -41,17 +41,17 @@ theme:
     - navigation.top
     - navigation.path
     - navigation.footer
-
     - toc.follow
     # - toc.integrate
     - search.suggest
     - search.highlight
     - search.share
-    - header.autohide
+    # - header.autohide
     - announce.dismiss
     - content.code.annotate 
     - content.tabs.link
     - content.tooltips
+    - content.code.copy
 
   
     
