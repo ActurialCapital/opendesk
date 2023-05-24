@@ -7,8 +7,10 @@ theme:
   favicon: assets/images/lightning.png
   # logo: assets/images/128.png
   icon:
-    repo: fontawesome/brands/git-alt 
+    repo: fontawesome/brands/github
     logo: material/cube-outline
+    # edit: material/pencil
+    view: material/lock
   name: material
   custom_dir: overrides
   language: en    
@@ -52,6 +54,8 @@ theme:
     - content.tabs.link
     - content.tooltips
     - content.code.copy
+    # - content.action.edit
+    - content.action.view
 
   
     
@@ -122,7 +126,9 @@ plugins:
   #       options:
   #         show_source: false
   #         show_csource_code: false
-
+  - git-committers:
+      repository: ActurialCapital/opendesk
+      branch: main
 
 markdown_extensions:
   # Python Markdown
