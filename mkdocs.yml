@@ -5,10 +5,10 @@ site_name: opendesk
 # Configuration
 theme:
   favicon: assets/images/lightning.png
-  # logo: assets/images/128.png
+  # logo: simple/zapier
   icon:
     repo: fontawesome/brands/github
-    logo: material/cube-outline
+    logo: simple/zapier
     # edit: material/pencil
     view: material/lock
   name: material
